@@ -1,10 +1,15 @@
 ;;; -*- lexical-binding: t -*-
 (setq uo-programs
       '(
-        ("sublime" . "/Applications/Sublime Text.app")
-        ("vim" . "/Applications/MacVim.app")
-        ("intellij" . "/Applications/IntelliJ IDEA 13.app")
-        ("textedit" . "/Applications/TextEdit.app")
+        ("sublime" . "Sublime Text")
+        ("vim" . "MacVim")
+        ("intellij" . "IntelliJ IDEA 13")
+        ("textedit" . "TextEdit")
+        ("finder" . "Finder")
+        ("chrome" . "Google Chrome")
+        ("firefox" . "Firefox")
+        ("safari" . "Safari")
+        ("mail" . "Mail")
       ))
 
 (defun uo-generate-functions (program)
