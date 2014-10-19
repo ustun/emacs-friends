@@ -16,3 +16,4 @@ TODO:
 
 Make a proper package.
 Make program list customizable with a defvar.
+Make it work on Linux.
