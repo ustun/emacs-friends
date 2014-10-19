@@ -1,5 +1,7 @@
 ;;; -*- lexical-binding: t -*-
 
+;; On OS X, just the name of the app suffices.
+;; On other platforms, need the path to the program if not on PATH.
 (setq uo-programs
       (cl-case system-type
         ('darwin
